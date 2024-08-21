@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* If any anchor tag with active class in ht */
+a.active hr{
+    display: block;
+}
